@@ -4,12 +4,10 @@ module.exports = ({ env }) => ({
     default: {
       connector: 'mongoose',
       settings: {
-        host: env('DATABASE_HOST', '@cluster0.z3gjy.mongodb.net'),
+        uri: env('DATABASE_URI'),
         srv: env.bool('DATABASE_SRV', true),
         port: env.int('DATABASE_PORT', 27017),
-        database: env('DATABASE_NAME', 'portfolio-content'),
-        username: env('DATABASE_USERNAME', 'Gabriel'),
-        password: env('DATABASE_PASSWORD', 'Gabrieladmin123'),
+        database: env('DATABASE_NAME'),
       },
       options: {
         authenticationDatabase: env('AUTHENTICATION_DATABASE', null),
