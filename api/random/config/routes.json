@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/random",
+      "handler": "random.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/random",
+      "handler": "random.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/random",
+      "handler": "random.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

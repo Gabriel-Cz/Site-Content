@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "randoms",
+  "info": {
+    "name": "random"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "random": {
+      "type": "string"
+    }
+  }
+}
