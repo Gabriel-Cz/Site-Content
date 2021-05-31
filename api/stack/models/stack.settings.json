@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "stacks",
+  "info": {
+    "name": "stack"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "technologies": {
+      "type": "json"
+    }
+  }
+}
