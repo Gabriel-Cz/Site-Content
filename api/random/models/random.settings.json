@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "randoms",
   "info": {
-    "name": "random"
+    "name": "random",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -10,9 +11,5 @@
     "draftAndPublish": true
   },
   "pluginOptions": {},
-  "attributes": {
-    "random": {
-      "type": "string"
-    }
-  }
+  "attributes": {}
 }
