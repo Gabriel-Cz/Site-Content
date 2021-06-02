@@ -1,3 +1,3 @@
 # Strapi application
 
-A quick description of your strapi application
+Content for my Portfolio Website.
